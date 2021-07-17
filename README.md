@@ -1,1 +1,2 @@
 # Face-Authentication-Project
+I used a pre-trained Facenet and MTCNN model to build a Face Authentication (one to many comparisons) system. MTCNN model detects faces from the input camera image and crops them out. Then this image is fed to the Facenet model which compares the input image to image embedding present in the database. It results in the output as if the person is from the database or a new one
